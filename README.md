@@ -8,8 +8,8 @@
 
 ## Project Checklist
 
-1. Fork and Clone [Rock, Paper, Scissors Repo](https://github.com/AustinCodingAcademy/JS211_RockPaperScissorsProject.git)
-1. Ensure you have installed all dependencies/packages: `npm i`
+Fork and Clone [Rock, Paper, Scissors Repo](https://github.com/AustinCodingAcademy/JS211_RockPaperScissorsProject.git)
+Ensure you have installed all dependencies/packages: `npm i`
 1. Practice running the unit tests for the program:
     * `npm test main.js`
 1. Use a whiteboard to find a solution to the Rock, Paper, Scissors program

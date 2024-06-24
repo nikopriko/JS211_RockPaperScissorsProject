@@ -2,14 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <script src="main.js"></script>
+    
   </head>
   <body>
     <h1>Hello World!</h1>
     <hr/>
-    <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
+    <form>
+      <div>
+        Player 1
+        <textarea id="hand1" name="hand1" ></textarea>
+
+        Player 2
+        <textarea id="hand2" name="hand2" ></textarea>
+
+      </div>
+      <!--div>
+      Player 1
+          <input type="radio" name="hand1" id="rock">Rock
+          <input type="radio" name="hand1" id="paper">Paper
+          <input type="radio" name="hand1" id="scissors">Scissors
+      </div>
+
+      <div>
+        Player 2
+            <input type="radio" name="hand2" id="rock">Rock
+            <input type="radio" name="hand2" id="paper">Paper
+            <input type="radio" name="hand2" id="scissors">Scissors
+        </div-->
+      
+    </form>
+    <button onclick="getPrompt()">Click Me</button>
     <hr/>
   </body>
+  <script src="main.js"></script>
 </html>
